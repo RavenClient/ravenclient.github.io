@@ -134,9 +134,9 @@ a:not([href]):not([tabindex]) {
 }
 
 .btn-common:hover {
-  color: #B317EF;
-  background: transparent;
-  border: 1px dotted #B317EF;
+  color: #fff;
+  background: #22272e;
+  border: 1px dotted #fff;
   box-shadow: 0 6px 22px rgba(0, 0, 0, 0.1);
   transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
