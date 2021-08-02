@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  background: #fff;
+  background: #22272e;
   font-size: 14px;
   font-weight: 400;
   font-family: 'Open Sans', sans-serif;
@@ -12,7 +12,7 @@ body {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   -webkit-font-smoothing: subpixel-antialiased;
-  color: #abacae;
+  color: #fff;
   line-height: 25px;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
@@ -21,7 +21,7 @@ body {
 
 h1, h2, h3, h4 {
   font-size: 38px;
-  color: #222222;
+  color: #fff;
   font-weight: 700;
   font-family: 'Arvo', serif;
 }
@@ -74,7 +74,7 @@ a:not([href]):not([tabindex]) {
 
 .section-title {
   font-size: 30px;
-  color: #222222;
+  color: #fff;
   display: inline-block;
   font-weight: 700;
   position: relative;
@@ -93,7 +93,7 @@ a:not([href]):not([tabindex]) {
 }
 
 .bg-gray {
-  background: #f9f9f9;
+  background: #171a1d;
 }
 
 .overlay {
@@ -326,7 +326,7 @@ hr {
   8. Features Section Style
    ========================================================================== */
 #features {
-  background: #fff;
+  background: #22272e;
 }
 
 #features .icon {
@@ -352,12 +352,12 @@ hr {
 }
 
 #features .box-item {
-  box-shadow: 0 0 12px #F4F4F4;
+  box-shadow: 0 0 12px #801cf0;
   padding: 15px;
   line-height: 22px;
   margin-top: 30px;
   border-radius: 3px;
-  background-color: #fff;
+  background-color: #22272e;
   -webkit-transition: all .3s ease-in-out;
   -mox-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
@@ -400,7 +400,7 @@ hr {
 }
 
 #features .box-item:hover {
-  box-shadow: 0 10px 22px 10px rgba(27, 38, 49, 0.1);
+  box-shadow: 0 10px 22px 10px #000;
 }
 
 #features .box-item:hover h4 {
@@ -421,7 +421,7 @@ hr {
   border-radius: 4px;
   text-align: center;
   margin: 15px 0;
-  box-shadow: 0 0 12px #F4F4F4;
+  box-shadow: 0 0 12px #000;
   transition: all 0.3s ease-in-out 0s;
   -moz-transition: all 0.3s ease-in-out 0s;
   -webkit-transition: all 0.3s ease-in-out 0s;
@@ -442,7 +442,7 @@ hr {
 
 .services-item .icon i {
   font-size: 30px;
-  color: #B317EF;
+  color: #fff;
   line-height: 70px;
   transition: all 0.3s ease-in-out 0s;
   -moz-transition: all 0.3s ease-in-out 0s;
@@ -459,11 +459,11 @@ hr {
 
 .services-item .services-content h3 a {
   font-size: 16px;
-  color: #585b60;
+  color: #a036d1;
 }
 
 .services-item .services-content h3 a:hover {
-  color: #B317EF;
+  color: #fff;
 }
 
 .services-item:hover {
@@ -758,7 +758,7 @@ hr {
 }
 
 #hero-area .contents .head-title {
-  color: #222222;
+  color: #fff;
   font-size: 42px;
   font-weight: 700;
   line-height: 60px;
@@ -885,7 +885,7 @@ hr {
 
 #pricing .title h3 {
   text-transform: uppercase;
-  color: #333;
+  color: #fff;
   font-size: 18px;
 }
 
@@ -900,7 +900,7 @@ hr {
   padding: 30px;
   border-radius: 4px;
   border: none !important;
-  box-shadow: 0px 2px 18px 0px rgba(198, 198, 198, 0.3);
+  box-shadow: 0px 2px 18px 0px #801cf0;
   -webkit-transition: all .3s linear;
   -moz-transition: all .3s linear;
   -ms-transition: all .3s linear;
@@ -978,7 +978,7 @@ hr {
 }
 
 #pricing .table:hover {
-  background: #ffffff;
+  background: #801cf0;
   box-shadow: 0 10px 22px 10px rgba(27, 38, 49, 0.1);
 }
 
@@ -991,7 +991,7 @@ hr {
 }
 
 #pricing #active-tb {
-  background: #ffffff;
+  background: #801cf0;
   box-shadow: 0 10px 22px 10px rgba(27, 38, 49, 0.1);
 }
 
