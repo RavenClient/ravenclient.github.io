@@ -7,6 +7,7 @@ Website: https://ravenclient.cf
 Raven B+ Discord: https://discord.gg/mVUkq2ZMdh
 
 Changelog:
+- 02/08/21 | 16:20 > Fixed spelling mistakes.
 - 02/08/21 | 15:57 > Changed entire theme to dark + Purple.
 - 02/08/21 | 14:55 > Changed Discord Logo drop shadow.
 - 02/08/21 | 14:25 > Added a favicon logo to the browser tab.
