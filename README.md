@@ -7,6 +7,7 @@ Website: https://ravenclient.cf
 Raven B+ Discord: https://discord.gg/mVUkq2ZMdh
 
 Changelog:
+- 02/08/21 | 20:00 > Attempting a force page load zoom.
 - 02/08/21 | 17:15 > Fixed "Hover.css" and added cube things with an infinite bob animation.
 - 02/08/21 | 17:14 > Uploaded "inf.css" for animations.
 - 02/08/21 | 16:20 > Added "Hover.css" class to index and added animations to images/titles.
