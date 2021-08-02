@@ -1,5 +1,7 @@
-# nighttabgit.github.io
+# Raven B+ | The new and improved Raven B3
 First commit to Raven B+ launch website.
+
+Developers: Kopamed, JMRaich.
 
 Website: https://ravenclient.cf
 Raven B+ Discord: https://discord.gg/mVUkq2ZMdh
