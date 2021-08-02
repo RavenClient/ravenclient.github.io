@@ -7,7 +7,7 @@ Website: https://ravenclient.cf
 Raven B+ Discord: https://discord.gg/mVUkq2ZMdh
 
 Changelog:
-- 02/08/21 | 15:57 > Changed entire theme to dar + Purple.
+- 02/08/21 | 15:57 > Changed entire theme to dark + Purple.
 - 02/08/21 | 14:55 > Changed Discord Logo drop shadow.
 - 02/08/21 | 14:25 > Added a favicon logo to the browser tab.
 - 02/08/21 | 14:01 > Changed "Free download" Button to link to https://github.com/Kopamed/Raven-bPLUS/raw/main/build/libs/%5B1.8.9%5D%20BetterKeystrokes%20V-1.1.0.jar 
