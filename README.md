@@ -7,6 +7,8 @@ Website: https://ravenclient.cf
 Raven B+ Discord: https://discord.gg/mVUkq2ZMdh
 
 Changelog:
+- 03/08/21 | 10:47 > CSS Zoom abandoned.
+                   > Uploaded Kopeamed's mod folder to "asstes/src/" availble for download on future mods site.
 - 03/08/21 | 08:12 > CSS zoom try 2.
 - 02/08/21 | 21:00 > Force zoom failed. We'll get em next time. (Attempt 2 tomorrow)
 - 02/08/21 | 20:00 > Attempting a force page load zoom.
