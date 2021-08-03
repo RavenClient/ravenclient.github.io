@@ -400,7 +400,7 @@ hr {
 }
 
 #features .box-item:hover {
-  box-shadow: 0 10px 22px 10px #000;
+  box-shadow: 0 10px 22px 1px #9c4bf8;
 }
 
 #features .box-item:hover h4 {
@@ -421,7 +421,7 @@ hr {
   border-radius: 4px;
   text-align: center;
   margin: 15px 0;
-  box-shadow: 0 0 12px #000;
+  box-shadow: 0 0 12px #801cf0;
   transition: all 0.3s ease-in-out 0s;
   -moz-transition: all 0.3s ease-in-out 0s;
   -webkit-transition: all 0.3s ease-in-out 0s;
@@ -588,7 +588,7 @@ hr {
 }
 
 .navbar-expand-md .navbar-nav .nav-link {
-  color: #333;
+  color: #fff;
   font-weight: 400;
   padding: 7px 0;
   cursor: pointer;
