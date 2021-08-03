@@ -8,10 +8,10 @@ Raven B+ Discord: https://discord.gg/mVUkq2ZMdh
 
 Changelog:
 - 03/08/21 | 11:46 > New Nav bar added.
--                  > New page added "mods.html".
--                  > Other Nav Bar options locked as no pages.
--                  > Mod downloads now available.
--                  > Attempt reboot of "main.css" and "boostrap.min.css"
+                   > New page added "mods.html".
+                   > Other Nav Bar options locked as no pages.
+                   > Mod downloads now available.
+                   > Attempt reboot of "main.css" and "boostrap.min.css"
 - 03/08/21 | 10:47 > CSS Zoom abandoned.
                    > Uploaded Kopeamed's mod folder to "asstes/src/" availble for download on future mods site.
 - 03/08/21 | 08:12 > CSS zoom try 2.
