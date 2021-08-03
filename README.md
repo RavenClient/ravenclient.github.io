@@ -7,6 +7,7 @@ Website: https://ravenclient.cf
 Raven B+ Discord: https://discord.gg/mVUkq2ZMdh
 
 Changelog:
+- 03/08/21 | 08:12 > CSS zoom try 2.
 - 02/08/21 | 21:00 > Force zoom failed. We'll get em next time. (Attempt 2 tomorrow)
 - 02/08/21 | 20:00 > Attempting a force page load zoom.
 - 02/08/21 | 17:15 > Fixed "Hover.css" and added cube things with an infinite bob animation.
