@@ -7,7 +7,7 @@ Website: https://ravenclient.cf
 Raven B+ Discord: https://discord.gg/mVUkq2ZMdh
 
 Changelog:
-- 03/08/21 | 19:06 > A LOT OF SPELLING MISTAKES FIXED I HOPE YOUR HAPPY.
+- 03/08/21 | 19:06 > A LOT OF SPELLING MISTAKES FIXED I HOPE YOU'RE HAPPY.
 - 03/08/21 | 11:46 > New Nav bar added.
                    > New page added "mods.html".
                    > Other Nav Bar options locked as no pages.
