@@ -3,6 +3,8 @@ First commit to Raven B+ launch website.
 
 Developers: Kopamed, JMRaich.
 
+NOTE TO FUTURE NIGHTTAB: There is a 404 error in config button due to lack of config.html. 
+
 Website: https://ravenclient.cf
 Raven B+ Discord: https://discord.gg/mVUkq2ZMdh
 
