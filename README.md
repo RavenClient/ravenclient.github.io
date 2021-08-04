@@ -7,7 +7,7 @@ Website: https://ravenclient.cf
 Raven B+ Discord: https://discord.gg/mVUkq2ZMdh
 
 Changelog:
-
+- 04/08/21 | 19:24 > Added more hover animations to "index.html".
 - 04/08/21 | 14:16 > Updated placement of responsive boxes on main page and updates spelling (again).
 - 03/08/21 | 19:06 > A LOT OF SPELLING MISTAKES FIXED I HOPE YOU'RE HAPPY.
 - 03/08/21 | 11:46 > New Nav bar added.
