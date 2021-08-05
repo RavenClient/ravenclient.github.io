@@ -3,12 +3,17 @@ First commit to Raven B+ launch website.
 
 Developers: Kopamed, JMRaich.
 
-NOTE TO FUTURE NIGHTTAB: There is a 404 error in config button due to lack of config.html. 
+Notes for future NightTab:
+- Make more configs / request more.
+- Make "configs.html" cleaner.
+- Make a forum if possible?
+- Make Dcos page w/ Kopeamed.
 
 Website: https://ravenclient.cf
 Raven B+ Discord: https://discord.gg/mVUkq2ZMdh
 
 Changelog:
+- 05/08/21 | 11:47 > "configs.html" is now live and linked.
 - 04/08/21 | 19:35 > Cleaned code in "index.html", "mods.html" and future "config.html".
 - 04/08/21 | 19:24 > Added more hover animations to "index.html".
 - 04/08/21 | 14:16 > Updated placement of responsive boxes on main page and updates spelling (again).
