@@ -17,6 +17,7 @@ Website: https://ravenclient.cf
 Raven B+ Discord: https://discord.gg/mVUkq2ZMdh
 
 Changelog:
+- 07/08/21 | 16:29 > Did a fuck ton of updates, changing mod folder downloads, spelling etc...
 - 05/08/21 | 11:47 > "configs.html" is now live and linked.
 - 04/08/21 | 19:35 > Cleaned code in "index.html", "mods.html" and future "config.html".
 - 04/08/21 | 19:24 > Added more hover animations to "index.html".
