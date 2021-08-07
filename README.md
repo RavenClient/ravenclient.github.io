@@ -4,7 +4,7 @@ First commit to Raven B+ launch website.
 Developers: Kopamed, JMRaich.
 
 
-Development is on temporary hold due to NightTab raging at deleting some code. Be back on 06/08/21 or maybe later. Im so fustrated.
+Idk, motivation is low so development is slow [For Website] playing some minecraft for a bit (1-2 days) then back to developing. 
 -
 
 Notes for future NightTab:
