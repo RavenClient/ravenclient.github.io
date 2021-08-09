@@ -4,9 +4,6 @@ First commit to Raven B+ launch website.
 Developers: Kopamed, JMRaich.
 
 
-Idk, motivation is low so development is slow [For Website] playing some minecraft for a bit (1-2 days) then back to developing. 
--
-
 Notes for future NightTab:
 - Make more configs / request more.
 - Make "configs.html" cleaner.
