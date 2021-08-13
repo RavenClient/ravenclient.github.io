@@ -64,7 +64,15 @@ const phrases = [
 'Raven B+',
 'Raven B+',
 'Raven B+',
-'SkilledV3 Is Trash'];
+'Raven B+',
+'Help Me..',
+'Raven B+',
+'Raven B+',
+'AMONGUS',
+'Raven B+',
+'Raven B+',
+'Raven B+',
+'Locked In Basment...'];
 
 
 const el = document.querySelector('.text');
