@@ -3,7 +3,7 @@
   <img src="https://img.shields.io/github/languages/code-size/ravenclient.github.io/Raven-bPLUS.svg" alt="Code size"/>
   <img src="https://img.shields.io/github/repo-size/ravenclient.github.io/Raven-bPLUS.svg" alt="GitHub repo size"/>
   <img src="https://tokei.rs/b1/github/RavenClient/ravenclient.github.io?category=code" alt="Lines of Code"/
-</p>
+</p> <br/> 
 First commit to Raven B+ launch website.
 
 Developers: Kopamed, JMRaich.
