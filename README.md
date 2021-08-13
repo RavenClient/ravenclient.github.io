@@ -1,4 +1,9 @@
-# Raven B+ | The new and improved Raven B3
+# Raven B+ | The new and improved Raven B
+<p align="center">
+  <img src="https://img.shields.io/github/languages/code-size/ravenclient.github.io/Raven-bPLUS.svg" alt="Code size"/>
+  <img src="https://img.shields.io/github/repo-size/ravenclient.github.io/Raven-bPLUS.svg" alt="GitHub repo size"/>
+  <img src="https://tokei.rs/b1/github/RavenClient/ravenclient.github.io?category=code" alt="Lines of Code"/
+</p>
 First commit to Raven B+ launch website.
 
 Developers: Kopamed, JMRaich.
@@ -7,10 +12,9 @@ Website: https://ravenclient.cf
 Raven B+ Discord: https://discord.gg/mVUkq2ZMdh
 
 Changelog:
+- 13/08/21 | 21:37 > Readme Badges
 - 13/08/21 | 20:10 > Added reviews, working on changelog section for index.html.
-
-- 13/08/21 | 20:10 > Revamped entire framework of site [Now using custom CSS combined in style.css] 
-
+                   > Revamped entire framework of site [Now using custom CSS combined in style.css] 
 - 09/08/21 | 16:38 > Added more configs, changed colour schemes.
 - 07/08/21 | 16:29 > Did a fuck ton of updates, changing mod folder downloads, spelling etc...
 - 05/08/21 | 11:47 > "configs.html" is now live and linked.
