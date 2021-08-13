@@ -3,17 +3,14 @@ First commit to Raven B+ launch website.
 
 Developers: Kopamed, JMRaich.
 
-
-Notes for future NightTab:
-- Make more configs / request more.
-- Make "configs.html" cleaner.
-- Make a forum if possible?
-- Make Dcos page w/ Kopeamed.
-
 Website: https://ravenclient.cf
 Raven B+ Discord: https://discord.gg/mVUkq2ZMdh
 
 Changelog:
+- 13/08/21 | 20:10 > Added reviews, working on changelog section for index.html.
+
+- 13/08/21 | 20:10 > Revamped entire framework of site [Now using custom CSS combined in style.css] 
+
 - 09/08/21 | 16:38 > Added more configs, changed colour schemes.
 - 07/08/21 | 16:29 > Did a fuck ton of updates, changing mod folder downloads, spelling etc...
 - 05/08/21 | 11:47 > "configs.html" is now live and linked.
