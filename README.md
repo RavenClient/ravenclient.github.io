@@ -13,7 +13,7 @@ Website: https://ravenclient.cf
 Raven B+ Discord: https://discord.gg/mVUkq2ZMdh
 
 Changelog:
-- 13/08/21 | 21:37 > Readme Badges
+- 13/08/21 | 21:37 > Readme Badges. (RaidBot https://github.com/RaidLocked)
 - 13/08/21 | 20:10 > Added reviews, working on changelog section for index.html.
                    > Revamped entire framework of site [Now using custom CSS combined in style.css] 
 - 09/08/21 | 16:38 > Added more configs, changed colour schemes.
