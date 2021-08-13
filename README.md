@@ -1,4 +1,4 @@
-# Raven B+ | The new and improved Raven B
+# Raven B+ | The new and improved Raven B3
 <p align="center">
   <img src="https://img.shields.io/github/languages/code-size/ravenclient.github.io/Raven-bPLUS.svg" alt="Code size"/>
   <img src="https://img.shields.io/github/repo-size/ravenclient.github.io/Raven-bPLUS.svg" alt="GitHub repo size"/>
