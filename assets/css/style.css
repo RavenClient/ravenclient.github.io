@@ -442,17 +442,17 @@ div label[for=ui-component-toggle__yearly] {
 
 /* AMOUNT */
 
-.ui-component-card--pricing-amount-1::before { content: "€0"; }
+.ui-component-card--pricing-amount-1::before { content: "â‚¬0"; }
 
 #ui-component-toggle__yearly:checked ~ div
 .ui-component-card--pricing-amount-1::before { content: "$3"; }
 
-.ui-component-card--pricing-amount-2::before { content: "€3"; }
+.ui-component-card--pricing-amount-2::before { content: "â‚¬3"; }
 
 #ui-component-toggle__yearly:checked ~ div
 .ui-component-card--pricing-amount-2::before { content: "$13"; }
 
-.ui-component-card--pricing-amount-3::before { content: "€2,000"; }
+.ui-component-card--pricing-amount-3::before { content: "â‚¬2,000"; }
 
 #ui-component-toggle__yearly:checked ~ div
 .ui-component-card--pricing-amount-3::before { content: "$23"; }
@@ -685,6 +685,12 @@ div label[for=ui-component-toggle__yearly] {
   }
 
   .ui-text-intro { font-size: var(--ui-typography-h4); }
+	
+  .ui-text-intro2 { 
+	  align-content: center;
+	  align text-align: center;
+	  font-size: var(--ui-typography-h4); 
+	}
   
   .ui-layout-container { width: 70rem; }
 
@@ -781,6 +787,25 @@ div label[for=ui-component-toggle__yearly] {
   text-align: center;
   opacity: 1;
 }
+
+.text5 {
+  font-weight: 50;
+  font-size: 20px;
+  color: #fff;
+  color: #fff;
+  text-align: left;
+  opacity: 1;
+}
+
+.text6 {
+  font-weight: 50;
+  font-size: 15px;
+  color: #fff;
+  color: #fff;
+  text-align: left;
+  opacity: 1;
+}
+
 /* Text Hover */
 
 .content {
@@ -5117,6 +5142,15 @@ div label[for=ui-component-toggle__yearly] {
     opacity: 1;
 }
 
+.title4 {
+    font-family: sans-serif;
+    font-size: 35px;
+    color: #fff;
+    text-align: left;
+    padding-left: 490px;
+    opacity: 1;
+}
+
 /* Downloads */
 
 .leaderboard {
@@ -5421,6 +5455,13 @@ canvas{
   padding-bottom: 6rem;
   padding-top: 0rem;
   width: 1250px;
+	
+}
+
+.container16 {
+  margin: 0 auto;
+  padding-left: 4rem;
+  padding-right: 4rem;
 	
 }
 
@@ -6294,4 +6335,74 @@ canvas{
   100% {
     transform: translate(85px, 0%);
   }
+}
+
+/* Features Container */
+
+@charset "UTF-8";
+details {
+  width: 50%;
+  margin: 0 auto;
+  background: #252B32;
+  margin-bottom: 0.5rem;
+  box-shadow: 0 0.1rem 1rem -0.5rem rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+summary {
+  padding: 1rem;
+  display: block;
+	/*
+  background: linear-gradient(90deg, rgba(128,28,240,1) 0%, rgba(89,27,240,1) 29%, rgba(217,26,239,1) 52%, rgba(159,25,239,1) 73%, rgba(179,23,239,1) 100%);
+	*/
+  background: #171B1F;
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  padding-left: 2.2rem;
+  position: relative;
+  cursor: pointer;
+}
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+summary:before {
+  content: "";
+  border-width: 0.4rem;
+  border-style: solid;
+  border-color: transparent transparent transparent #fff;
+  position: absolute;
+  top: 1.3rem;
+  left: 1rem;
+  transform: rotate(0);
+  transform-origin: 0.2rem 50%;
+  transition: 0.25s transform ease-in-out;
+}
+
+/* THE MAGIC ðŸ§™â€â™€ï¸ */
+details[open] > summary:before {
+  transform: rotate(90deg);
+}
+
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+details > ul {
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 1rem;
+  margin-bottom: 0;
 }
