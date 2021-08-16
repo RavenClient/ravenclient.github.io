@@ -13,6 +13,7 @@ Website: https://ravenclient.cf
 Raven B+ Discord: https://discord.gg/mVUkq2ZMdh
 
 Changelog:
+- 16/08/21 | 17:05 > Added features page and completed "combat" modules.
 - 16/08/21 | 14:29 > Added cool svg animated wave at bottom of website. Added hover effects for nav bar.
 - 16/08/21 | 11:17 > Disabled "Purchase" button. Hidden scroll bar. Moved release notes.
 - 14/08/21 | 19:39 > Changed index.js, added "changelog" section (NEEDS INPUT).
