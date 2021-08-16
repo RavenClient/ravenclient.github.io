@@ -13,6 +13,7 @@ Website: https://ravenclient.cf
 Raven B+ Discord: https://discord.gg/mVUkq2ZMdh
 
 Changelog:
+- 16/08/21 | 11:17 > Disabled "Purchase" button. Hidden scroll bar. Moved release notes.
 - 14/08/21 | 19:39 > Changed index.js, added "changelog" section (NEEDS INPUT).
 - 13/08/21 | 21:37 > Readme Badges. (RaidBot https://github.com/RaidLocked)
 - 13/08/21 | 20:10 > Added reviews, working on changelog section for index.html.
