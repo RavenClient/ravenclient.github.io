@@ -442,17 +442,17 @@ div label[for=ui-component-toggle__yearly] {
 
 /* AMOUNT */
 
-.ui-component-card--pricing-amount-1::before { content: "â‚¬0"; }
+.ui-component-card--pricing-amount-1::before { content: "$0"; }
 
 #ui-component-toggle__yearly:checked ~ div
 .ui-component-card--pricing-amount-1::before { content: "$3"; }
 
-.ui-component-card--pricing-amount-2::before { content: "â‚¬3"; }
+.ui-component-card--pricing-amount-2::before { content: "$3"; }
 
 #ui-component-toggle__yearly:checked ~ div
 .ui-component-card--pricing-amount-2::before { content: "$13"; }
 
-.ui-component-card--pricing-amount-3::before { content: "â‚¬2,000"; }
+.ui-component-card--pricing-amount-3::before { content: "$2,000"; }
 
 #ui-component-toggle__yearly:checked ~ div
 .ui-component-card--pricing-amount-3::before { content: "$23"; }
@@ -789,6 +789,7 @@ div label[for=ui-component-toggle__yearly] {
 }
 
 .text5 {
+  text-shadow: 0px 0px 5px #171b1f;
   font-weight: 50;
   font-size: 20px;
   color: #fff;
@@ -800,7 +801,7 @@ div label[for=ui-component-toggle__yearly] {
 .text6 {
   font-weight: 50;
   font-size: 15px;
-  color: #fff;
+  text-shadow: 0px 0px 5px #171b1f;
   color: #fff;
   text-align: left;
   opacity: 1;
@@ -5539,7 +5540,7 @@ canvas{
 .accordion button[aria-expanded=true] + .accordion-content {
   opacity: 1;
 	
-  max-height: 9em;
+  max-height: 30em;
   transition: all 400ms ease-in-out;
   will-change: opacity, max-height;
 }
@@ -6384,6 +6385,7 @@ summary:before {
   border-style: solid;
   border-color: transparent transparent transparent #fff;
   position: absolute;
+  
   top: 1.3rem;
   left: 1rem;
   transform: rotate(0);
@@ -6394,13 +6396,18 @@ summary:before {
 /* THE MAGIC ðŸ§™â€â™€ï¸ */
 details[open] > summary:before {
   transform: rotate(90deg);
+	
 }
 
 details summary::-webkit-details-marker {
+
   display: none;
 }
 
 details > ul {
+	background: linear-gradient(90deg, rgba(128,28,240,1) 0%, rgba(89,27,240,1) 29%, rgba(217,26,239,1) 52%, rgba(159,25,239,1) 73%, rgba(179,23,239,1) 100%);
+	background-size: 400% 400%;
+	animation: gradient 60s ease infinite;
   padding-top: 10px;
   padding-left: 20px;
   padding-bottom: 1rem;
