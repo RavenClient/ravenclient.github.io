@@ -71,7 +71,7 @@ const phrases = [
 'Raven B+',
 'Raven B+',
 'Raven B+',
-'Locked In Basment..'];
+'Locked In Basement..'];
 
 
 const el = document.querySelector('.text');
