@@ -447,7 +447,7 @@ div label[for=ui-component-toggle__yearly] {
 #ui-component-toggle__yearly:checked ~ div
 .ui-component-card--pricing-amount-1::before { content: "$3"; }
 
-.ui-component-card--pricing-amount-2::before { content: "$3"; }
+.ui-component-card--pricing-amount-2::before { content: "Private"; }
 
 #ui-component-toggle__yearly:checked ~ div
 .ui-component-card--pricing-amount-2::before { content: "$13"; }
