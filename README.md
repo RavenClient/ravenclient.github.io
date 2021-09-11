@@ -5,7 +5,7 @@
   <img src="https://tokei.rs/b1/github/RavenClient/ravenclient.github.io?category=code" alt="Lines of Code"/
 </p> <br/> 
 
-First commit to Raven B+ launch website.
+# The Raven B+ Luanching ground.
 
 Developers: Kopamed, JMRaich.
 
