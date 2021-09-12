@@ -6349,6 +6349,7 @@ details {
   box-shadow: 0 0.1rem 1rem -0.5rem rgba(0, 0, 0, 0.4);
   border-radius: 5px;
   overflow: hidden;
+  transition: 0.2s;
 }
 
 summary {
@@ -6396,11 +6397,12 @@ summary:before {
 /* THE MAGIC ðŸ§™â€â™€ï¸ */
 details[open] > summary:before {
   transform: rotate(90deg);
+  
 	
 }
 
 details summary::-webkit-details-marker {
-
+  
   display: none;
 }
 
@@ -6412,4 +6414,12 @@ details > ul {
   padding-left: 20px;
   padding-bottom: 1rem;
   margin-bottom: 0;
+  
+}
+
+#eyes {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1.0);
 }
