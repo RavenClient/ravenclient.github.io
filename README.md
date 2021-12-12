@@ -5,7 +5,7 @@
   <img src="https://tokei.rs/b1/github/RavenClient/ravenclient.github.io?category=code" alt="Lines of Code"/
 </p> <br/> 
 
-# The Raven B+ Luanching ground.
+# The Raven B+ Laucnhing ground.
 
 Developers: Kopamed, JMRaich.
 
