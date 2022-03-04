@@ -5,7 +5,7 @@
   <img src="https://tokei.rs/b1/github/RavenClient/ravenclient.github.io?category=code" alt="Lines of Code"/
 </p> <br/> 
 
-# The Raven B+ Laucnhing ground.
+# The Raven B+ Launching ground.
 
 Developers: Kopamed, JMRaich.
 
@@ -13,9 +13,11 @@ Website: https://ravenclient.cf
 Raven B+ Discord: https://discord.gg/mVUkq2ZMdh
 
 Changelog:
-- 04/09/21 | 00:00 > Edited "Premium" version to "Advanced" version & a little bit of information about "a+".
+- 04/03/22 | 20:39 > Removed all old files.
+                   > Added index.html (Main page.) and other assets.
   
-[Archived] Changelog 02/08/21 --> 05/09/21:
+[Archived] Changelog 02/08/21 --> 04/03/22:
+- 04/09/21 | 00:00 > Edited "Premium" version to "Advanced" version & a little bit of information about "a+".
 - 16/08/21 | 17:05 > Added features page and completed "combat" modules.
 - 16/08/21 | 14:29 > Added cool svg animated wave at bottom of website. Added hover effects for nav bar.
 - 16/08/21 | 11:17 > Disabled "Purchase" button. Hidden scroll bar. Moved release notes.
