@@ -528,3 +528,20 @@ a {
   }
 
 }
+
+.back_button {
+
+    text-shadow: 0px 0px 3px #fff;
+
+    transition: .25s;
+
+}
+.back_button:hover {
+
+    text-shadow: 0px 0px 10px #fff;
+
+    cursor: pointer;
+
+    transform: translateX(5px);
+
+}
