@@ -486,7 +486,7 @@ a {
 
   height: 1000px;
   margin: 0 auto;
-  min-width: 785px;
+  width: 100%;
 
   overflow: hidden;
 
