@@ -24,6 +24,7 @@ body {
   --box-shadow: 5px 5px 50px 10px rgba(40, 39, 86, 0.15);
   --button-font-size: 20px;
   --smaller-text: 20px;
+  --smallest-text: 15px;
 
 
 }
@@ -54,7 +55,7 @@ h2 {
 
 p {
 
-    font-size: var(--font-size);
+    font-size: var(--smallest-text);
 }
 
 a {
@@ -363,14 +364,35 @@ a {
     :root {
 
         --font-size: 20px;
-        --title-size: 30px;
-        --smaller-text: 15px;
+        --title-size: 20px;
+        --smaller-text: 12px;
+        --smallest-text: 12px;
+
+        --margin: 10vw;
+
+    }
+
+    .main_content {
+
+        margin-top: 50px;
+
+    }
+
+    .faq_description {
+
+        font-size: 12px;
+        padding: 0 1.25rem 1.25rem 1.5rem;
+
+    }
+    .faq_title {
+
+        font-size: 15px;
 
     }
 
     .spacer {
 
-        padding-top: 320px;
+        padding-top: 120px;
 
     }
 
