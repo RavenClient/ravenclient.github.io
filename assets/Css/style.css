@@ -359,64 +359,6 @@ a {
 
 }
 
-@media only screen and (max-width: 600px) {
-
-    :root {
-
-        --font-size: 20px;
-        --title-size: 20px;
-        --smaller-text: 12px;
-        --smallest-text: 12px;
-
-        --margin: 10vw;
-
-    }
-
-    .main_content {
-
-        margin-top: 50px;
-
-    }
-
-    .faq_description {
-
-        font-size: 12px;
-        padding: 0 1.25rem 1.25rem 1.5rem;
-
-    }
-    .faq_title {
-
-        font-size: 15px;
-
-    }
-
-    .spacer {
-
-        padding-top: 120px;
-
-    }
-
-    .text_style_2 {
-
-        margin-left: 0px;
-        margin-top: 90px;
-
-    }
-
-    .wrapper {
-
-        visibility: hidden;
-
-    }
-
-    .moveable {
-
-        padding-top: 50px;
-
-    }
-
-}
-
 .moveable {
 
     margin-top: 80px;
@@ -449,22 +391,6 @@ a {
 .card:hover {
 
     transform: translateY(-5px);
-
-}
-
-@media only screen and (max-width: 1350px) {
-
-    .card {
-
-        max-width: 100%;
-
-    }
-    .card:hover {
-
-    transform: translateX(5px);
-    margin-bottom: 5px;
-
-    }
 
 }
 
@@ -591,5 +517,80 @@ a {
     cursor: pointer;
 
     transform: translateX(5px);
+
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    :root {
+
+        --font-size: 20px;
+        --title-size: 20px;
+        --smaller-text: 12px;
+        --smallest-text: 12px;
+
+        --margin: 10vw;
+
+    }
+
+    .main_content {
+
+        margin-top: 50px;
+
+    }
+
+    .faq_description {
+
+        font-size: 12px;
+        padding: 0 1.25rem 1.25rem 1.5rem;
+
+    }
+    .faq_title {
+
+        font-size: 15px;
+
+    }
+
+    .spacer {
+
+        padding-top: 120px;
+
+    }
+
+    .text_style_2 {
+
+        margin-left: 0px;
+        margin-top: 90px;
+
+    }
+
+    .orbiting-lines {
+
+        height: 600px;
+
+    }
+
+    .moveable {
+
+        padding-top: 50px;
+
+    }
+
+}
+
+@media only screen and (max-width: 1350px) {
+
+    .card {
+
+        max-width: 100%;
+
+    }
+    .card:hover {
+
+    transform: translateX(5px);
+    margin-bottom: 5px;
+
+    }
 
 }
