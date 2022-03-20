@@ -22,8 +22,8 @@ Changelog:
   
 - 04/03/22 | 20:39 > Removed all old files.
                    > Added index.html (Main page.) and other assets.
-  
-[Archived] Changelog 02/08/21 --> 04/03/22:
+
+   [Archived] Changelog 02/08/21 --> 04/03/22:
 - 04/09/21 | 00:00 > Edited "Premium" version to "Advanced" version & a little bit of information about "a+".
 - 16/08/21 | 17:05 > Added features page and completed "combat" modules.
 - 16/08/21 | 14:29 > Added cool svg animated wave at bottom of website. Added hover effects for nav bar.
