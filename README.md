@@ -1,17 +1,22 @@
-# Raven B+ | The new and improved Raven B3
-<p align="center">
+
+<h1 align="center">
+  Raven B+ | The new and improved Raven B3
   <img src="https://img.shields.io/github/languages/code-size/RavenClient/ravenclient.github.io.svg" alt="Code size"/>
   <img src="https://img.shields.io/github/repo-size/RavenClient/Ravenclient.github.io.svg" alt="GitHub repo size"/>
   <img src="https://tokei.rs/b1/github/RavenClient/ravenclient.github.io?category=code" alt="Lines of Code"/
+
+
+
 </p> <br/> 
 
-# The Raven B+ Launching ground.
-
+<h3 align="center">
 Developers: Kopamed, JMRaich.
-
-Website: https://ravenclient.cf
+  
+Website: https://ravenbplus.cf <br>
 Raven B+ Discord: https://discord.gg/mVUkq2ZMdh
 
+<hr>
+</h3>
 Changelog:
 - 04/03/22 | 20:39 > Removed all old files.
                    > Added index.html (Main page.) and other assets.
