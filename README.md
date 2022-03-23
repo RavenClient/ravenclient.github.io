@@ -1,6 +1,6 @@
 
 <h1 align="center">
-  Raven B+ | The new and improved Raven B3
+  Raven B+ | The new and improved Raven B3 <br>
   <img src="https://img.shields.io/github/languages/code-size/RavenClient/ravenclient.github.io.svg" alt="Code size"/>
   <img src="https://img.shields.io/github/repo-size/RavenClient/Ravenclient.github.io.svg" alt="GitHub repo size"/>
   <img src="https://tokei.rs/b1/github/RavenClient/ravenclient.github.io?category=code" alt="Lines of Code"/
