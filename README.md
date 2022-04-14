@@ -13,8 +13,12 @@
 Developers: Kopamed, JMRaich.
   
 Website: https://ravenbplus.cf <br>
-Raven B+ Discord: https://discord.gg/mVUkq2ZMdh
 
+Discord:<br><br>
+<a href="https://discord.gg/QQMQfCRyNP"><img src="https://invidget.switchblade.xyz/QQMQfCRyNP" alt="https://discord.gg/8uDgyweMJh"/></a><br>
+Backup: <br><br>
+<a href="https://discord.gg/XhVt9NMtBE"><img src="https://invidget.switchblade.xyz/XhVt9NMtBE" alt="https://discord.gg/XhVt9NMtBE"/></a><br>
+  
 <hr>
 </h3>
 Changelog:
