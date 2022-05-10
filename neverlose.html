@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeverLose UI</title>
+    <link rel="stylesheet" href="assets/NeverloseGUI/Neverlose.css">
+
+    <meta content="NeverLose UI." property="og:title"/>
+    <meta content="#09080D" data-react-helmet="true" name="theme-color"/>
+    <meta content="NeverLose UI, but online. :D" property="og:description"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style type="text/css">
+        ::-webkit-scrollbar {
+
+            width: 0px;
+            height: 0px;
+
+        }
+
+        ::-webkit-scrollbar-track {
+
+            background: rgba(179, 23, 239, 0.1);
+
+        }
+
+        ::-webkit-scrollbar-thumb {
+
+            background: -webkit-linear-gradient(top right, #b317ef, #801cf0);
+            border-radius: 50px
+
+        }
+    </style>
+
+    <style>a {text-decoration: none;}</style>
+
+</head>
+
+<body>
+
+<div class = "fade">
+
+    <div id = "draggable" style = "left: 210px; top: 10px;">
+
+    <div id = "side-bar-background"></div>
+
+    <div id = "side-bar">
+
+        <div class = "title">RAVEN CLIENT</div>
+        <div class = "sub-title">Raven Premium - Beta 2.1</div>
+
+        <br>
+
+        <div class = "genre-title">Client</div>
+
+        <div onclick="openTab(event, 'combat')" id = "opened" class = "tablinks section-button"><i class="fa-solid fa-crosshairs" style = "color: #025e96; margin-right: 15px;"></i>Combat</div>
+        <div onclick="openTab(event, 'movement')" class = "tablinks section-button"><i class="fa-solid fa-person-running" style = "color: #025e96; margin-right: 15px;"></i>Movement</div>
+        <div class = "section-button"><i class="fa-solid fa-vector-square" style = "color: #025e96; margin-right: 15px;"></i>Render</div>
+        <div class = "section-button"><i class="fa-solid fa-user" style = "color: #025e96; margin-right: 15px;"></i>Player</div>
+        <div class = "section-button"><i class="fa-solid fa-keyboard" style = "color: #025e96; margin-right: 15px;"></i>Hotkey</div>
+
+        <div class = "genre-title" style = "margin-top: 20px;">Miscellaneous</div>
+
+        <div class = "section-button"><i class="fa-solid fa-gamepad" style = "color: #025e96; margin-right: 15px;"></i>Minigames</div>
+        <div class = "section-button"><i class="fa-solid fa-face-smile" style = "color: #025e96; margin-right: 15px;"></i>Fun</div>
+        <div class = "section-button"><i class="fa-solid fa-eject" style = "color: #025e96; margin-right: 15px;"></i>Other</div>
+
+        <div class = "genre-title" style = "margin-top: 20px;">Settings</div>
+
+        <div class = "section-button"><i class="fa-solid fa-gear" style = "color: #025e96; margin-right: 15px;"></i>Client</div>
+        <div class = "section-button"><i class="fa-solid fa-earth-americas" style = "color: #025e96; margin-right: 15px;"></i>World</div>
+        <div class = "section-button"><i class="fa-solid fa-bug" style = "color: #025e96; margin-right: 15px;"></i>Debug</div>
+
+        <div id = "side-bar-user">
+            
+            <img class = "avatar" src="assets/NeverloseGUI/avatar.png" width="50" height="50">
+
+            <div class = "user-title" style = "position: absolute; display: inline;">NightTab</div>
+            <div class = "user-info" style = "position: absolute; display: inline;">Rank: User</div>
+
+        </div>
+
+    </div>
+
+    <div id = "draggable-interactive">
+        
+        <div class = "config-save"><div style = "margin-left: 8px;"><i class="fa-solid fa-floppy-disk" style = "margin-right: 10px;"></i>Save Config</div></div>
+        <div class = "config-save" style = "position: absolute; top: 2px; left: 150px;"><div style = "margin-left: 8px;"><i class="fa-solid fa-download" style = "margin-right: 10px;"></i>Load Config</div></div>
+        <div class = "config-save drop-down drop-down-1" style = "position: absolute; top: 2px; left: 300px; width: 140px;"><div style = "margin-left: 8px;">Global Settings<i class="fa-solid fa-angle-down" style = "margin-left: 10px;"></i></div><div class = "drop-down-1-content fade" style = "margin-left: -7px; margin-top: 15px;">Sprinting<br><br>Walking<br><br>Stationary</div></div>
+
+        <div class = "search-ico"><i class="fa-solid fa-magnifying-glass"></i></div>
+        <div class = "x-ico"><i class="fa-solid fa-xmark"></i></div>
+
+    </div>
+    <div id = "main" style = "overflow-y: scroll;">
+        
+        <div id = "combat" class = "fade tabcontent" style = "display: none;">
+            
+            <div class = "module">
+                <div class = "module-title" style = "font-weight: bold; font-size: 18px;">Auto Clicker<input type="checkbox" class="toggle" checked style = "top: 5px; left: 172px;"></div>
+                <div class = "module-title" style = "left: 330px; top: 25px; position: absolute; text-align: right;">[G]</div>
+                <div class = "module-divider"></div>
+
+                <div class = "module-title" style = "font-weight: bold;">Left Click<input type="checkbox" class="toggle" checked style = "left: 234px;"></div>
+
+                <div class = "module-title">CPS</div><div id = "left-cps-amount" class = "amount" style = "position: absolute; left: 330px; top: 105px; font-family: 'Calibri', sans-serif; font-weight: normal;"></div>
+                <input type="range" min="1" max="30" value="16" class="slider" id="left-cps-slider" style = "position: absolute; left: 120px; top: 112px;">
+
+                <div class = "module-title">Jitter</div><div id = "left-jitter-amount" class = "amount" style = "position: absolute; left: 330px; top: 132px; font-family: 'Calibri', sans-serif; font-weight: normal;"></div>
+                <input type="range" min="0" max="5" value="0" class="slider" id="left-jitter-slider" style = "position: absolute; left: 120px; top: 140px;">
+
+                <div class = "module-title" style = "margin-top: -5px;">Inventory Fill<input type="checkbox" class="toggle" checked style = "left: 210px;"></div>
+                <div class = "module-title" style = "margin-top: -5px;">Weapon Only<input type="checkbox" class="toggle" style = "left: 206px;"></div>
+                <div class = "module-title" style = "margin-top: -5px;">Break Blocks<input type="checkbox" class="toggle" checked style = "left: 212px;"></div>
+
+                <div class = "module-title">Break Delay</div><div id = "break-delay-amount" class = "amount" style = "position: absolute; left: 330px; top: 250px; font-family: 'Calibri', sans-serif; font-weight: normal;"></div>
+                <input type="range" min="1" max="90" value="60" class="slider" id="break-delay-slider" style = "position: absolute; left: 120px; top: 258px;">
+
+
+                <div class = "module-title" style = "font-weight: bold;">Right Click<input type="checkbox" class="toggle" checked style = "left: 225px;"></div>
+
+                <div class = "module-title">CPS</div><div id = "right-cps-amount" class = "amount" style = "position: absolute; left: 330px; top: 312px; font-family: 'Calibri', sans-serif; font-weight: normal;"></div>
+                <input type="range" min="1" max="30" value="20" class="slider" id="right-cps-slider" style = "position: absolute; left: 120px; top: 320px;">
+
+                <div class = "module-title">Jitter</div><div id = "right-jitter-amount" class = "amount" style = "position: absolute; left: 330px; top: 342px; font-family: 'Calibri', sans-serif; font-weight: normal;"></div>
+                <input type="range" min="0" max="5" value="2" class="slider" id="right-jitter-slider" style = "position: absolute; left: 120px; top: 350px;">
+
+                <div class = "module-title">Delay (ms)</div><div id = "right-delay-amount" class = "amount" style = "position: absolute; left: 330px; top: 372px; font-family: 'Calibri', sans-serif; font-weight: normal;"></div>
+                <input type="range" min="0" max="90" value="80" class="slider" id="right-delay-slider" style = "position: absolute; left: 120px; top: 378px;">
+
+                <div class = "module-title" style = "margin-top: -5px;">Dont Activate With Sword<input type="checkbox" class="toggle" checked style = "left: 127px;"></div>
+                <div class = "module-title" style = "margin-top: -5px;">Blocks Only<input type="checkbox" class="toggle" style = "left: 220px;"></div>
+                <div class = "module-title" style = "margin-top: -5px;">Prefer Fastplace<input type="checkbox" class="toggle" style = "left: 191px;"></div>
+                <div class = "module-title" style = "margin-top: -5px;">Allow Eating<input type="checkbox" class="toggle" checked style = "left: 215px;"></div>
+                <div class = "module-title" style = "margin-top: -5px;">Allow Bow Draw<input type="checkbox" class="toggle" checked style = "left: 189px;"></div>
+                <div class = "module-title" style = "margin-top: 15px;">Randomisation Type
+                <div class = "custom-select" style = "left: 250px; top: 545px;">
+                        <select>
+                            <option value = "0">Raven B3</option>
+                            <option value = "1">Raven B3</option>
+                            <option value = "2">Advanced</option>
+                        </select>
+                    </div>
+                </div>
+                <div class = "module-title" style = "margin-top: 15px;">Click Event
+                <div class = "custom-select" style = "left: 250px; top: 580px;">
+                        <select>
+                            <option value = "0">Render</option>
+                            <option value = "1">Render</option>
+                            <option value = "2">Event</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "module" style = "margin-top:  20px">
+                <div class = "module-title" style = "font-weight: bold; font-size: 18px;">Reach<input type="checkbox" class="toggle" checked style = "top:  5px; left: 215px;"></div>
+                <div class = "module-title" style = "left: 330px; top: 645px; position: absolute; text-align: right;">[H]</div>
+                <div class = "module-divider"></div>
+
+                <div class = "module-title">Reach</div><div id = "reach-amount" class = "amount" style = "position: absolute; left: 330px; top: 694px; font-family: 'Calibri', sans-serif; font-weight: normal;"></div>
+                <input type="range" min="30" max="60" value="35" class="slider" id="reach-slider" style = "position: absolute; left: 120px; top: 701px;">
+
+                <div class = "module-title" style = "margin-top: -5px;">Weapon Only<input type="checkbox" class="toggle"  style = "left: 206px;"></div>
+                <div class = "module-title" style = "margin-top: -5px;">Moving Only<input type="checkbox" class="toggle" checked style = "left: 213px;"></div>
+                <div class = "module-title" style = "margin-top: -5px;">Sprint Only<input type="checkbox" class="toggle" style = "left: 222px;"></div>
+                <div class = "module-title" style = "margin-top: -5px;">Through Blocks<input type="checkbox" class="toggle" style = "left: 195px;"></div>
+                <div class = "module-title" style = "margin-top: -5px;">Misplace Mode<input type="checkbox" class="toggle" style = "left: 194px;"></div>
+            </div>
+
+            <br>
+
+            <div class = "module" style = "margin-left: auto; margin-right: 40px; margin-top: -871px;">
+                <div class = "module-title" style = "font-weight: bold; font-size: 18px;">Aim Assist<input type="checkbox" class="toggle" checked style = "top:  5px; left: 185px;"></div>
+                <div class = "module-title" style = "left: 720px; top: 28px; position: absolute; text-align: right;">[R]</div>
+                <div class = "module-divider"></div>
+
+                <div class = "module-title">Speed 1</div><div id = "speed-1-amount" class = "amount" style = "position: absolute; left: 720px; top: 70px; font-family: 'Calibri', sans-serif; font-weight: normal;"></div>
+                <input type="range" min="1" max="100" value="5" class="slider" id="speed-1-slider" style = "position: absolute; left: 510px; top: 78px;">
+
+                <div class = "module-title">Speed 2</div><div id = "speed-2-amount" class = "amount" style = "position: absolute; left: 720px; top: 97px; font-family: 'Calibri', sans-serif; font-weight: normal;"></div>
+                <input type="range" min="0" max="100" value="45" class="slider" id="speed-2-slider" style = "position: absolute; left: 510px; top: 105px;">
+
+                <div class = "module-title">FOV</div><div id = "aim-fov-amount" class = "amount" style = "position: absolute; left: 720px; top: 125px; font-family: 'Calibri', sans-serif; font-weight: normal;"></div>
+                <input type="range" min="0" max="360" value="90" class="slider" id="aim-fov-slider" style = "position: absolute; left: 510px; top: 133px;">
+
+                <div class = "module-title">Distance</div><div id = "aim-distance-amount" class = "amount" style = "position: absolute; left: 720px; top: 152px; font-family: 'Calibri', sans-serif; font-weight: normal;"></div>
+                <input type="range" min="0" max="360" value="90" class="slider" id="aim-distance-slider" style = "position: absolute; left: 510px; top: 161px;">
+
+                <div class = "module-title" style = "margin-top: -5px;">Click Aim<input type="checkbox" class="toggle" checked style = "left: 235px;"></div>
+                <div class = "module-title" style = "margin-top: -5px;">Break Blocks<input type="checkbox" class="toggle" checked style = "left: 212px;"></div>
+                <div class = "module-title" style = "margin-top: -5px;">Ignore Friends<input type="checkbox" class="toggle" style = "left: 201px;"></div>
+                <div class = "module-title" style = "margin-top: -5px;">Ignore Teammates<input type="checkbox" class="toggle" checked style = "left: 175px;"></div>
+                <div class = "module-title" style = "margin-top: -5px;">Weapon Only<input type="checkbox" class="toggle"  style = "left: 206px;"></div>
+                <div class = "module-title" style = "margin-top: -5px;">Aim At Invis<input type="checkbox" class="toggle"  style = "left: 217px;"></div>
+                <div class = "module-title" style = "margin-top: -5px;">Blatant Mode<input type="checkbox" class="toggle"  style = "left: 206px;"></div>
+                <div class = "module-title" style = "margin-top: -5px;">Lock On Target<input type="checkbox" class="toggle" checked style = "left: 199px;"></div>
+            </div>
+
+            <div class = "module" style = "margin-left: auto; margin-right: 40px; margin-top: 20px;">
+                <div class = "module-title" style = "font-weight: bold; font-size: 18px;">Delay Remover<input type="checkbox" class="toggle" checked style = "top:  5px; left: 130px;"></div>
+                <div class = "module-title" style = "left: 700px; top: 453px; position: absolute; text-align: right;">[BIND]</div>
+                <div class = "module-divider"></div>
+
+                <div class = "module-title" style = "margin-top: -5px;">Imitate 1.7.10<input type="checkbox" class="toggle" checked style = "left: 202px;"></div>
+            </div>
+
+            <div class = "module" style = "margin-left: auto; margin-right: 40px; margin-top: 20px;">
+                <div class = "module-title" style = "font-weight: bold; font-size: 18px;">Block Hit<input type="checkbox" class="toggle" checked style = "top:  5px; left: 177px;"></div>
+                <div class = "module-title" style = "left: 700px; top: 559px; position: absolute; text-align: right;">[BIND]</div>
+                <div class = "module-divider"></div>
+
+                <div class = "module-title" style = "margin-top: -5px;">Only On Players<input type="checkbox" class="toggle" style = "left: 189px;"></div>
+                <div class = "module-title" style = "margin-top: -5px;">When Holding RMB<input type="checkbox" class="toggle" checked style = "left: 167px;"></div>
+
+                <div class = "module-title">Distance</div><div id = "blockhit-distance-amount" class = "amount" style = "position: absolute; left: 720px; top: 665px; font-family: 'Calibri', sans-serif; font-weight: normal;"></div>
+                <input type="range" min="0" max="7" value="6" class="slider" id="blockhit-distance-slider" style = "position: absolute; left: 510px; top: 673px;">
+
+                <div class = "module-title">Chance</div><div id = "blockhit-chance-amount" class = "amount" style = "position: absolute; left: 720px; top: 695px; font-family: 'Calibri', sans-serif; font-weight: normal;"></div>
+                <input type="range" min="0" max="100" value="85" class="slider" id="blockhit-chance-slider" style = "position: absolute; left: 510px; top: 701px;">
+            </div>
+
+                <br>
+
+        </div>
+
+        <div id = "movement" class = "fade tabcontent" style = "display: none;">
+
+            <div class = "module">
+                <div class = "module-title" style = "font-weight: bold; font-size: 18px;">Sprint<input type="checkbox" class="toggle" style = "top: 5px; left: 217px;"></div>
+                <div class = "module-title" style = "left: 330px; top: 25px; position: absolute; text-align: right;">[L]</div>
+                <div class = "module-divider"></div>
+
+                <div class = "module-title">Toggle Sneak<input type="checkbox" class="toggle" style = "left: 207px;"></div>
+
+                <div class = "module-title" style = "margin-top: 15px;">Overrides
+                <div class = "custom-select" style = "left: 250px; top: 107px;">
+                        <select>
+                            <option value = "0">Hit</option>
+                            <option value = "1">Hit</option>
+                            <option value = "2">Eat</option>
+                        </select>
+                    </div>
+                </div>
+                <div class = "module-title" style = "margin-top: 15px;">Event
+                <div class = "custom-select" style = "left: 250px; top: 143px;">
+                        <select>
+                            <option value = "0">Key</option>
+                            <option value = "1">Key</option>
+                            <option value = "2">Yaw</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "module">
+                <div class = "module-title" style = "font-weight: bold; font-size: 18px;">W Tap<input type="checkbox" checked class="toggle" style = "top: 5px; left: 197px;"></div>
+                <div class = "module-title" style = "left: 310px; top: 206px; position: absolute; text-align: right;">[BIND]</div>
+                <div class = "module-divider"></div>
+
+                <div class = "module-title">Only On Players<input type="checkbox" class="toggle" checked style = "left: 189px;"></div>
+                <div class = "module-title" style = "margin-top: 15px;">Event
+                <div class = "custom-select" style = "left: 250px; top: 288px;">
+                        <select>
+                            <option value = "0">Post</option>
+                            <option value = "1">Post</option>
+                            <option value = "2">Pre</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class = "module-title">Action Time</div><div id = "wtap-action-amount" class = "amount" style = "position: absolute; left: 330px; top: 324px; font-family: 'Calibri', sans-serif; font-weight: normal;"></div>
+                <input type="range" min="10" max="900" value="75" class="slider" id="wtap-action-slider" style = "position: absolute; left: 120px; top: 330px;">
+
+            </div>
+
+        </div>
+
+    </div>
+
+    </div>
+
+</div>
+
+<script type="text/javascript">
+javascript: console.log("😂");
+javascript: console.log("Neverlose. :o");
+</script>
+
+<script src="assets/NeverloseGUI/Neverlose.js"></script>
+
+<script type="text/javascript">
+document.getElementById("opened").click();
+</script>
+
+</body>
